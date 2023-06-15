@@ -20,16 +20,22 @@ footer {
     justify-content: center;
 }
 footer .copyright {
-    font-size: 14px;
-    color: #333;
+    font-size: 18px;
+    color: #555;
     text-align: center;
 }
 footer .copyright a {
-    color: #444;
+    color: #666;
 }
 footer .copyright a:hover {
-    color: #555;
+    color: #777;
 }
 footer .copyright:before {
     content: '©';
+}
+
+@media (max-width: 364px) {
+    header {
+        padding: 10px 15px;
+    }
 }
